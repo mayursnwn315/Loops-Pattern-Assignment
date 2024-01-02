@@ -1,0 +1,41 @@
+﻿1.Write a program to print Alphabets A to H using pattern programming logic:
+Ans-
+java
+Copy code
+for (char ch = 'A'; ch <= 'H'; ch++) {
+    System.out.print(ch + " ");
+}
+
+
+2.Write a program to print a triangle using star pattern programming logic:
+Ans-
+java
+Copy code
+int n = 5; // Number of rows
+for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= i; j++) {
+        System.out.print("* ");
+    }
+    System.out.println();
+}
+
+
+3.Write a program to print "HELLO" using pattern programming logic:
+Ans-
+java
+Copy code
+String text = "SKILLS";
+for (int i = 0; i < text.length(); i++) {
+    System.out.print(text.charAt(i) + " ");
+}
+
+
+4.Write a program to print your Full Name using pattern programming logic:
+Ans-
+java
+Copy code
+String fullName = "Your Full Name";
+for (int i = 0; i < fullName.length(); i++) {
+    System.out.print(fullName.charAt(i) + " ");
+}
+Please replace "Your Full Name" with your actual full name in the last program. Ensure that you use proper characters and formatting for the programming logic.
